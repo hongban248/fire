@@ -1,0 +1,78 @@
+    INFO | 2026-10-12 10:35:55 | pypeitsetup.py:from_file_root:197 | Found 54 magellan_fire_long raw files.
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:206 | Building metadata for 54 files.
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0012.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0013.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0014.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0015.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0016.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0017.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0018.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0019.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0020.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0021.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0033.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0034.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0035.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0036.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0037.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0038.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0039.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0040.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0041.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0042.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0043.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0044.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0045.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0046.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0047.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0048.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0049.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0050.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0051.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0052.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0054.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0055.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0056.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0057.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0058.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0059.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0060.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0061.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0062.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0063.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0074.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0075.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0076.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0077.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0078.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0079.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0080.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0081.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0082.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0083.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0084.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0085.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0086.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:_build:235 | Adding metadata for fire_0087.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:get_frame_types:1391 | Typing files
+   DEBUG | 2026-10-12 10:35:55 | magellan_fire.py:check_frame_type:463 | Cannot determine if frames are of type align.
+   DEBUG | 2026-10-12 10:35:55 | magellan_fire.py:check_frame_type:463 | Cannot determine if frames are of type dark.
+   DEBUG | 2026-10-12 10:35:55 | magellan_fire.py:check_frame_type:463 | Cannot determine if frames are of type illumflat.
+   DEBUG | 2026-10-12 10:35:55 | magellan_fire.py:check_frame_type:463 | Cannot determine if frames are of type lampoffflats.
+   DEBUG | 2026-10-12 10:35:55 | magellan_fire.py:check_frame_type:463 | Cannot determine if frames are of type slitless_pixflat.
+   DEBUG | 2026-10-12 10:35:55 | magellan_fire.py:check_frame_type:463 | Cannot determine if frames are of type scattlight.
+   DEBUG | 2026-10-12 10:35:55 | magellan_fire.py:check_frame_type:463 | Cannot determine if frames are of type sky.
+    INFO | 2026-10-12 10:35:55 | metadata.py:get_frame_types:1432 | Couldn't identify the following files:
+    INFO | 2026-10-12 10:35:55 | metadata.py:get_frame_types:1434 | fire_0074.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:get_frame_types:1434 | fire_0075.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:get_frame_types:1434 | fire_0076.fits
+    INFO | 2026-10-12 10:35:55 | metadata.py:get_frame_types:1434 | fire_0077.fits
+ WARNING | 2026-10-12 10:35:55 | metadata.py:get_frame_types:1437 | These files are commented out and will be ignored during the reduction.
+    INFO | 2026-10-12 10:35:55 | metadata.py:get_frame_types:1444 | Typing completed!
+    INFO | 2026-10-12 10:35:55 | metadata.py:unique_configurations:709 | Using metadata to determine unique configurations.
+    INFO | 2026-10-12 10:35:55 | metadata.py:ignore_frames:1203 | Unique configurations ignore frames with type: ['bias', 'dark']
+    INFO | 2026-10-12 10:35:55 | metadata.py:unique_configurations:766 | Found 1 unique configuration(s).
+    INFO | 2026-10-12 10:35:55 | metadata.py:ignore_frames:1203 | Unique configurations ignore frames with type: ['bias', 'dark']
+    INFO | 2026-10-12 10:35:55 | inputfiles.py:vet:685 | PypeIt file successfully vetted.
+    INFO | 2026-10-12 10:35:55 | inputfiles.py:write:592 | PypeIt input file written to: /mnt/disk1/myresource/fire/magellan_fire_long_A/magellan_fire_long_A.pypeit
+    INFO | 2026-10-12 10:35:55 | calibrations.py:association_summary:1731 | Calibration association file written to: /mnt/disk1/myresource/fire/magellan_fire_long_A/magellan_fire_long_A.calib

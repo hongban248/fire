@@ -1,0 +1,138 @@
+    INFO | 2026-10-13 08:39:30 | inputfiles.py:from_file:136 | Loading the reduction file
+    INFO | 2026-10-13 08:39:30 | inputfiles.py:from_file:214 | Sens input file loaded successfully.
+    INFO | 2026-10-13 08:39:30 | sensfunc.py:main:198 | Writing the parameters to sensfunc.par
+    INFO | 2026-10-13 08:39:30 | pypeitdata.py:get_file_path:300 | PHOENIX_10000K_4p0.fits does not exist in the expected package directory (/home/yin/myenv/myenv/lib/python3.12/site-packages/pypeit/data/standards).  Checking cache or downloading the file now.
+    INFO | 2026-10-13 08:39:30 | flux_calib.py:get_mask:495 |  Masking bad pixels
+    INFO | 2026-10-13 08:39:30 | flux_calib.py:get_mask:500 |  Masking edges
+    INFO | 2026-10-13 08:39:30 | flux_calib.py:get_mask:503 |  Masking Below the atmospheric cutoff
+    INFO | 2026-10-13 08:39:30 | flux_calib.py:mask_stellar_hydrogen:585 | Masking hydrogen recombination lines
+    INFO | 2026-10-13 08:39:30 | flux_calib.py:mask_stellar_hydrogen:588 |  Masking Balmer
+    INFO | 2026-10-13 08:39:30 | flux_calib.py:mask_stellar_hydrogen:599 |  Masking Paschen
+    INFO | 2026-10-13 08:39:30 | flux_calib.py:mask_stellar_hydrogen:610 |  Masking Brackett
+    INFO | 2026-10-13 08:39:30 | flux_calib.py:mask_stellar_hydrogen:619 |  Masking Pfund
+    INFO | 2026-10-13 08:39:30 | telluric.py:__init__:2453 | Reading in the pca-based telluric model: TellPCA_3000_26000_R10000.fits
+    INFO | 2026-10-13 08:39:30 | pypeitdata.py:get_file_path:300 | TellPCA_3000_26000_R10000.fits does not exist in the expected package directory (/home/yin/myenv/myenv/lib/python3.12/site-packages/pypeit/data/telluric/atm_grids).  Checking cache or downloading the file now.
+ WARNING | 2026-10-13 08:39:34 | cache.py:fetch_remote_file:242 | Note: If this file takes a while to download, you may wish to used one of the install scripts (e.g., pypeit_install_telluric) to install the file independent of this processing script.
+    INFO | 2026-10-13 08:39:34 | telluric.py:__init__:2510 | Initializing object model for order: 0, 1/1 with user supplied function: init_sensfunc_model
+ WARNING | 2026-10-13 08:39:34 | fitting.py:robust_fit:456 | Maximum number of iterations maxiter=10 reached in robust_polyfit_djs
+    INFO | 2026-10-13 08:39:34 | telluric.py:run:2593 | Fitting object + telluric model for order: 0, 1/1 with user supplied function: init_sensfunc_model
+ WARNING | 2026-10-13 08:41:18 | fitting.py:robust_optimize:626 | Maximum number of iterations maxiter=2 reached in robust_optimize
+    INFO | 2026-10-13 08:41:40 | specobj.py:apply_flux_calib:596 | Fluxing BOX extraction for:
+<SpecObj:  items={TRACE_SPAT: True
+FWHM: True
+FWHMFIT: True
+SPAT_FWHM: True
+smash_peakflux: True
+smash_snr: True
+sign: True
+OPT_WAVE: True
+OPT_COUNTS: True
+OPT_COUNTS_IVAR: True
+OPT_COUNTS_SIG: True
+OPT_COUNTS_NIVAR: True
+OPT_FLAT: True
+OPT_MASK: True
+OPT_FWHM: True
+OPT_COUNTS_SKY: True
+OPT_COUNTS_SIG_DET: True
+OPT_FRAC_USE: True
+OPT_CHI2: True
+BOX_NPIX: True
+BOX_WAVE: True
+BOX_COUNTS: True
+BOX_COUNTS_IVAR: True
+BOX_COUNTS_SIG: True
+BOX_COUNTS_NIVAR: True
+BOX_FLAT: True
+BOX_MASK: True
+BOX_FWHM: True
+BOX_COUNTS_SKY: True
+BOX_COUNTS_SIG_DET: True
+BOX_R_PIX: True
+BOX_R_ASEC: True
+S2N: True
+FLEX_SHIFT_GLOBAL: True
+FLEX_SHIFT_LOCAL: True
+FLEX_SHIFT_TOTAL: True
+VEL_TYPE: True
+VEL_CORR: True
+DET: DET01
+DETECTOR: True
+PYPELINE: True
+PYP_SPEC: True
+OBJTYPE: True
+SPAT_PIXPOS: 163.57400727272034
+SPAT_PIXPOS_ID: 164
+SPAT_FRACPOS: True
+trace_spec: True
+maskwidth: True
+WAVE_RMS: True
+SLITID: 176
+OBJID: True
+NAME: SPAT0164-SLIT0176-DET01
+hand_extract_flag: True
+>
+    INFO | 2026-10-13 08:41:40 | flux_calib.py:get_sensfunc_factor:281 | Applying telluric correction
+ WARNING | 2026-10-13 08:41:40 | specobj.py:apply_flux_calib:611 | RuntimeWarning: divide by zero encountered in divide
+    INFO | 2026-10-13 08:41:40 | specobj.py:apply_flux_calib:614 |  Masking bad pixels
+    INFO | 2026-10-13 08:41:40 | specobj.py:apply_flux_calib:596 | Fluxing OPT extraction for:
+<SpecObj:  items={TRACE_SPAT: True
+FWHM: True
+FWHMFIT: True
+SPAT_FWHM: True
+smash_peakflux: True
+smash_snr: True
+sign: True
+OPT_WAVE: True
+OPT_COUNTS: True
+OPT_COUNTS_IVAR: True
+OPT_COUNTS_SIG: True
+OPT_COUNTS_NIVAR: True
+OPT_FLAT: True
+OPT_MASK: True
+OPT_FWHM: True
+OPT_COUNTS_SKY: True
+OPT_COUNTS_SIG_DET: True
+OPT_FRAC_USE: True
+OPT_CHI2: True
+BOX_NPIX: True
+BOX_WAVE: True
+BOX_FLAM: True
+BOX_FLAM_SIG: True
+BOX_FLAM_IVAR: True
+BOX_COUNTS: True
+BOX_COUNTS_IVAR: True
+BOX_COUNTS_SIG: True
+BOX_COUNTS_NIVAR: True
+BOX_FLAT: True
+BOX_MASK: True
+BOX_FWHM: True
+BOX_COUNTS_SKY: True
+BOX_COUNTS_SIG_DET: True
+BOX_R_PIX: True
+BOX_R_ASEC: True
+S2N: True
+FLEX_SHIFT_GLOBAL: True
+FLEX_SHIFT_LOCAL: True
+FLEX_SHIFT_TOTAL: True
+VEL_TYPE: True
+VEL_CORR: True
+DET: DET01
+DETECTOR: True
+PYPELINE: True
+PYP_SPEC: True
+OBJTYPE: True
+SPAT_PIXPOS: 163.57400727272034
+SPAT_PIXPOS_ID: 164
+SPAT_FRACPOS: True
+trace_spec: True
+maskwidth: True
+WAVE_RMS: True
+SLITID: 176
+OBJID: True
+NAME: SPAT0164-SLIT0176-DET01
+hand_extract_flag: True
+>
+    INFO | 2026-10-13 08:41:40 | flux_calib.py:get_sensfunc_factor:281 | Applying telluric correction
+    INFO | 2026-10-13 08:41:40 | specobj.py:apply_flux_calib:614 |  Masking bad pixels
+    INFO | 2026-10-13 08:41:41 | io.py:write_to_fits:672 | File written to: ./sensfunc.fits

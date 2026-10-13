@@ -1,0 +1,122 @@
+    INFO | 2026-10-13 09:18:05 | inputfiles.py:from_file:136 | Loading the reduction file
+    INFO | 2026-10-13 09:18:05 | inputfiles.py:from_file:214 | Flux input file loaded successfully.
+ WARNING | 2026-10-13 09:18:05 | parset.py:to_config:662 | Selected configuration file already exists and will be overwritten!
+    INFO | 2026-10-13 09:18:05 | datamodel.py:from_file:1558 | Loading SensFunc from /mnt/disk1/myresource/fire/magellan_fire_long_A/76/sensfunc.fits
+    INFO | 2026-10-13 09:18:05 | specobj.py:apply_flux_calib:596 | Fluxing BOX extraction for:
+<SpecObj:  items={TRACE_SPAT: True
+FWHM: True
+FWHMFIT: True
+SPAT_FWHM: True
+smash_peakflux: True
+smash_snr: True
+sign: True
+OPT_WAVE: True
+OPT_COUNTS: True
+OPT_COUNTS_IVAR: True
+OPT_COUNTS_SIG: True
+OPT_COUNTS_NIVAR: True
+OPT_FLAT: True
+OPT_MASK: True
+OPT_FWHM: True
+OPT_COUNTS_SKY: True
+OPT_COUNTS_SIG_DET: True
+OPT_FRAC_USE: True
+OPT_CHI2: True
+BOX_NPIX: True
+BOX_WAVE: True
+BOX_COUNTS: True
+BOX_COUNTS_IVAR: True
+BOX_COUNTS_SIG: True
+BOX_COUNTS_NIVAR: True
+BOX_FLAT: True
+BOX_MASK: True
+BOX_FWHM: True
+BOX_COUNTS_SKY: True
+BOX_COUNTS_SIG_DET: True
+BOX_R_PIX: True
+BOX_R_ASEC: True
+S2N: True
+FLEX_SHIFT_GLOBAL: True
+FLEX_SHIFT_LOCAL: True
+FLEX_SHIFT_TOTAL: True
+VEL_TYPE: True
+VEL_CORR: True
+DET: DET01
+DETECTOR: True
+PYPELINE: True
+PYP_SPEC: True
+OBJTYPE: True
+SPAT_PIXPOS: 223.23261992633343
+SPAT_PIXPOS_ID: 223
+SPAT_FRACPOS: True
+trace_spec: True
+maskwidth: True
+WAVE_RMS: True
+SLITID: 176
+OBJID: True
+NAME: SPAT0223-SLIT0176-DET01
+hand_extract_flag: True
+>
+    INFO | 2026-10-13 09:18:05 | specobj.py:apply_flux_calib:614 |  Masking bad pixels
+    INFO | 2026-10-13 09:18:05 | specobj.py:apply_flux_calib:596 | Fluxing OPT extraction for:
+<SpecObj:  items={TRACE_SPAT: True
+FWHM: True
+FWHMFIT: True
+SPAT_FWHM: True
+smash_peakflux: True
+smash_snr: True
+sign: True
+OPT_WAVE: True
+OPT_COUNTS: True
+OPT_COUNTS_IVAR: True
+OPT_COUNTS_SIG: True
+OPT_COUNTS_NIVAR: True
+OPT_FLAT: True
+OPT_MASK: True
+OPT_FWHM: True
+OPT_COUNTS_SKY: True
+OPT_COUNTS_SIG_DET: True
+OPT_FRAC_USE: True
+OPT_CHI2: True
+BOX_NPIX: True
+BOX_WAVE: True
+BOX_FLAM: True
+BOX_FLAM_SIG: True
+BOX_FLAM_IVAR: True
+BOX_COUNTS: True
+BOX_COUNTS_IVAR: True
+BOX_COUNTS_SIG: True
+BOX_COUNTS_NIVAR: True
+BOX_FLAT: True
+BOX_MASK: True
+BOX_FWHM: True
+BOX_COUNTS_SKY: True
+BOX_COUNTS_SIG_DET: True
+BOX_R_PIX: True
+BOX_R_ASEC: True
+S2N: True
+FLEX_SHIFT_GLOBAL: True
+FLEX_SHIFT_LOCAL: True
+FLEX_SHIFT_TOTAL: True
+VEL_TYPE: True
+VEL_CORR: True
+DET: DET01
+DETECTOR: True
+PYPELINE: True
+PYP_SPEC: True
+OBJTYPE: True
+SPAT_PIXPOS: 223.23261992633343
+SPAT_PIXPOS_ID: 223
+SPAT_FRACPOS: True
+trace_spec: True
+maskwidth: True
+WAVE_RMS: True
+SLITID: 176
+OBJID: True
+NAME: SPAT0223-SLIT0176-DET01
+hand_extract_flag: True
+>
+    INFO | 2026-10-13 09:18:05 | specobj.py:apply_flux_calib:614 |  Masking bad pixels
+ WARNING | 2026-10-13 09:18:05 | core.py:check_errwarn:133 | ErfaWarning: ERFA function "d2dtf" yielded 1 of "dubious year (Note 5)"
+    INFO | 2026-10-13 09:18:05 | specobjs.py:write_to_fits:936 | Wrote 1D spectra to ./spec1d_fire_0076-COCONUTS-2A_FIRE_85970523T110722.000.fits
+    INFO | 2026-10-13 09:18:05 | flux_calib.py:main:115 | Flux calibration complete
