@@ -324,11 +324,21 @@ python code/show_fluxing.py
 # 如果需要coadd
 python code/coadd.py
 ```
+
+$F_j=\frac{\sum{F_{ij}{IVAR}{ij}}}{\sum{{IVAR}{ij}}}$和 $\delta=\frac{1}{\sqrt{\sum{IVAR_{ij}}}}$
+
 ![figure4](/code/figures/4.png)
 
 我们可以在`code/coadded_spectrum.txt`拿到coadd结果,波长单位修正成了微米
 
 ![figure5](/code/figures/5.png)
+
+
+增加，H和K都应该有模板星对比。
+
+新增加echelle mode https://www.dropbox.com/scl/fo/3xoiw3crp4ulhxgl6yyop/AAeKg4-x7vqT5oZa7sTcqMA?rlkey=h6dtsrr98g4t2i3e82mbigg1m&dl=0  里面有三套flat，都要使用。
+
+下次开会：下周四10.22晚上九点半
 
 
 

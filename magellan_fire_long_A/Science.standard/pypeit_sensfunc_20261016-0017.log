@@ -1,0 +1,3 @@
+    INFO | 2026-10-16 08:17:11 | inputfiles.py:from_file:136 | Loading the reduction file
+    INFO | 2026-10-16 08:17:11 | inputfiles.py:from_file:214 | Sens input file loaded successfully.
+   ERROR | 2026-10-16 08:17:11 | pypeitpar.py:from_dict:2102 | ValueError: flatfile are not recognized key(s) for SensFuncPar.

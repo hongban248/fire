@@ -2,6 +2,6 @@
     algorithm = IR
     star_mag = 10.03
     star_type = PHOENIX
-  #   flatfile = /mnt/disk1/myresource/fire_reduction/magellan_fire_A/Calibrations/Flat_A_all_DET01.fits
+    flatfile = /mnt/disk1/myresource/fire_reduction/magellan_fire_A/Calibrations/Flat_A_all_DET01.fits
     [[IR]]
         telgridfile = 'TellPCA_3000_26000_R10000.fits'
