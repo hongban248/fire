@@ -1,0 +1,103 @@
+# Auto-generated calibration association file using PypeIt version:  2.0.1
+# UTC 2026-10-21T14:27:16.104+00:00
+# NOTE: DET01 is a placeholder for the reduced detectors/mosaics
+A:
+  --:
+    decker: default
+    dichroic: default
+    dispname: Echelle
+  0:
+    arc:
+      proc:
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/Calibrations/Arc_A_0_DET01.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/Calibrations/WaveCalib_A_0_DET01.fits
+      raw:
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0068.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0079.fits
+    pixelflat:
+      proc:
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/Calibrations/Flat_A_0_DET01.fits
+      raw:
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0023.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0024.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0025.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0026.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0027.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0028.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0029.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0030.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0031.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0032.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0033.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0034.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0035.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0036.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0037.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0038.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0039.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0040.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0041.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0042.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0048.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0049.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0050.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0051.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0052.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0053.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0054.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0055.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0056.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0057.fits
+    standard:
+    - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0069.fits
+    - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0070.fits
+    - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0071.fits
+    - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0072.fits
+    - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0073.fits
+    - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0074.fits
+    - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0075.fits
+    - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0076.fits
+    - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0077.fits
+    - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0078.fits
+    tilt:
+      proc:
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/Calibrations/Tiltimg_A_0_DET01.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/Calibrations/Tilts_A_0_DET01.fits
+      raw:
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0068.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0079.fits
+    trace:
+      proc:
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/Calibrations/Edges_A_0_DET01.fits.gz
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/Calibrations/Slits_A_0_DET01.fits.gz
+      raw:
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0023.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0024.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0025.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0026.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0027.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0028.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0029.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0030.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0031.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0032.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0033.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0034.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0035.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0036.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0037.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0038.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0039.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0040.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0041.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0042.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0048.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0049.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0050.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0051.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0052.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0053.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0054.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0055.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0056.fits
+      - /mnt/disk1/myresource/fire/FIRE_Echelle_COCONUTS2A/fire_0057.fits
