@@ -1,0 +1,81 @@
+# Auto-generated calibration association file using PypeIt version:  2.0.1
+# UTC 2026-11-15T21:51:58.043+00:00
+# NOTE: DET01 is a placeholder for the reduced detectors/mosaics
+A:
+  --:
+    decker: default
+    dichroic: default
+    dispname: Longslit
+  0:
+    arc:
+      proc:
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/Calibrations/Arc_A_0_DET01.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/Calibrations/WaveCalib_A_0_DET01.fits
+      raw:
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0074.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0075.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0076.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0077.fits
+    pixelflat:
+      proc:
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/Calibrations/Flat_A_all_DET01.fits
+      raw:
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0012.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0013.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0014.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0015.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0016.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0017.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0018.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0019.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0020.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0021.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0054.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0055.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0056.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0057.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0058.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0059.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0060.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0061.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0062.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0063.fits
+    science:
+    - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0074.fits
+    - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0075.fits
+    - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0076.fits
+    - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0077.fits
+    tilt:
+      proc:
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/Calibrations/Tiltimg_A_0_DET01.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/Calibrations/Tilts_A_0_DET01.fits
+      raw:
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0074.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0075.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0076.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0077.fits
+    trace:
+      proc:
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/Calibrations/Edges_A_all_DET01.fits.gz
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/Calibrations/Slits_A_all_DET01.fits.gz
+      raw:
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0012.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0013.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0014.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0015.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0016.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0017.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0018.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0019.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0020.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0021.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0054.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0055.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0056.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0057.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0058.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0059.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0060.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0061.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0062.fits
+      - /mnt/disk1/myresource/fire/magellan_fire_long_A/../raw_data_2026may31/fire_0063.fits

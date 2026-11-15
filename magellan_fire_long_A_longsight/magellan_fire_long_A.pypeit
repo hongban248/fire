@@ -1,0 +1,59 @@
+# Auto-generated PypeIt input file using PypeIt version: 1.12.2
+# UTC 2026-07-08T18:42:49.630
+
+# User-defined execution parameters
+[rdx]
+  spectrograph = magellan_fire_long
+
+# Setup
+setup read
+Setup A:
+decker: default
+dichroic: default
+dispname: Longslit
+setup end
+
+# Data block 
+data read
+path ../raw_data_2026may31
+    filename |       frametype |          ra |         dec |                         target | dispname |  decker | binning |                mjd | airmass | exptime | dichroic | calib | comb_id | bkg_id
+fire_0074.fits |arc,science,tilt |  117.066289 | -76.7704208 |                    COCONUTS-2A | Longslit | default |     1,1 |  2461192.460104167 |   1.636 |     1.0 |  default |     0 |       1 |      2
+fire_0075.fits |arc,science,tilt | 117.0561422 | -76.7716756 |                    COCONUTS-2A | Longslit | default |     1,1 |  2461192.462581019 |   1.642 |     1.0 |  default |     0 |       2 |      1
+fire_0076.fits |arc,science,tilt | 117.0561422 | -76.7716756 |                    COCONUTS-2A | Longslit | default |     1,1 | 2461192.4634490744 |   1.642 |     1.0 |  default |     0 |       3 |      4
+fire_0077.fits |arc,science,tilt | 117.0664243 | -76.7701989 |                    COCONUTS-2A | Longslit | default |     1,1 | 2461192.4659259263 |    1.65 |     1.0 |  default |     0 |       4 |      3
+fire_0012.fits | pixelflat,trace | 114.7549155 | -29.0552251 | High_voltage_flats_2.1_gain3.8 | Longslit | default |     1,1 |  2461192.325381945 |     1.0 |    12.0 |  default |   all |      -1 |     -1
+fire_0013.fits | pixelflat,trace | 114.7549155 | -29.0552251 | High_voltage_flats_2.1_gain3.8 | Longslit | default |     1,1 |  2461192.326284723 |     1.0 |    12.0 |  default |   all |      -1 |     -1
+fire_0014.fits | pixelflat,trace | 114.7549155 | -29.0552251 | High_voltage_flats_2.1_gain3.8 | Longslit | default |     1,1 | 2461192.3271643524 |     1.0 |    12.0 |  default |   all |      -1 |     -1
+fire_0015.fits | pixelflat,trace | 114.7549155 | -29.0552251 | High_voltage_flats_2.1_gain3.8 | Longslit | default |     1,1 |   2461192.32806713 |     1.0 |    12.0 |  default |   all |      -1 |     -1
+fire_0016.fits | pixelflat,trace | 114.7549155 | -29.0552251 | High_voltage_flats_2.1_gain3.8 | Longslit | default |     1,1 |  2461192.328958334 |     1.0 |    12.0 |  default |   all |      -1 |     -1
+fire_0017.fits | pixelflat,trace | 114.7549155 | -29.0552251 | High_voltage_flats_2.1_gain3.8 | Longslit | default |     1,1 | 2461192.3298495375 |     1.0 |    12.0 |  default |   all |      -1 |     -1
+fire_0018.fits | pixelflat,trace | 114.7549155 | -29.0552251 | High_voltage_flats_2.1_gain3.8 | Longslit | default |     1,1 | 2461192.3307407415 |     1.0 |    12.0 |  default |   all |      -1 |     -1
+fire_0019.fits | pixelflat,trace | 114.7549155 | -29.0552251 | High_voltage_flats_2.1_gain3.8 | Longslit | default |     1,1 |  2461192.331631945 |     1.0 |    12.0 |  default |   all |      -1 |     -1
+fire_0020.fits | pixelflat,trace | 114.7549155 | -29.0552251 | High_voltage_flats_2.1_gain3.8 | Longslit | default |     1,1 | 2461192.3325231485 |     1.0 |    12.0 |  default |   all |      -1 |     -1
+fire_0021.fits | pixelflat,trace | 114.7549155 | -29.0552251 | High_voltage_flats_2.1_gain3.8 | Longslit | default |     1,1 | 2461192.3334143525 |     1.0 |    12.0 |  default |   all |      -1 |     -1
+fire_0054.fits | pixelflat,trace |  128.505907 | -29.0543941 | High_voltage_flats_1.5_gain3.8 | Longslit | default |     1,1 | 2461192.3635648154 |     1.0 |    20.0 |  default |   all |      -1 |     -1
+fire_0055.fits | pixelflat,trace | 128.9734482 |  -29.054359 | High_voltage_flats_1.5_gain3.8 | Longslit | default |     1,1 |  2461192.364803241 |     1.0 |    20.0 |  default |   all |      -1 |     -1
+fire_0056.fits | pixelflat,trace | 128.9734482 |  -29.054359 | High_voltage_flats_1.5_gain3.8 | Longslit | default |     1,1 | 2461192.3657754636 |     1.0 |    20.0 |  default |   all |      -1 |     -1
+fire_0057.fits | pixelflat,trace | 128.9734482 |  -29.054359 | High_voltage_flats_1.5_gain3.8 | Longslit | default |     1,1 | 2461192.3667708337 |     1.0 |    20.0 |  default |   all |      -1 |     -1
+fire_0058.fits | pixelflat,trace | 128.9734482 |  -29.054359 | High_voltage_flats_1.5_gain3.8 | Longslit | default |     1,1 | 2461192.3677546303 |     1.0 |    20.0 |  default |   all |      -1 |     -1
+fire_0059.fits | pixelflat,trace | 128.9734482 |  -29.054359 | High_voltage_flats_1.5_gain3.8 | Longslit | default |     1,1 | 2461192.3687384264 |     1.0 |    20.0 |  default |   all |      -1 |     -1
+fire_0060.fits | pixelflat,trace | 128.9734482 |  -29.054359 | High_voltage_flats_1.5_gain3.8 | Longslit | default |     1,1 | 2461192.3698495375 |     1.0 |    20.0 |  default |   all |      -1 |     -1
+fire_0061.fits | pixelflat,trace | 128.9734482 |  -29.054359 | High_voltage_flats_1.5_gain3.8 | Longslit | default |     1,1 |  2461192.370833334 |     1.0 |    20.0 |  default |   all |      -1 |     -1
+fire_0062.fits | pixelflat,trace | 128.9734482 |  -29.054359 | High_voltage_flats_1.5_gain3.8 | Longslit | default |     1,1 |   2461192.37181713 |     1.0 |    20.0 |  default |   all |      -1 |     -1
+fire_0063.fits | pixelflat,trace | 128.9734482 |  -29.054359 | High_voltage_flats_1.5_gain3.8 | Longslit | default |     1,1 | 2461192.3728125007 |     1.0 |    20.0 |  default |   all |      -1 |     -1
+#fire_0078.fits |        arc,tilt | 117.0663011 | -76.7701431 |                         NeArNe | Longslit | default |     1,1 |  2461192.468032408 |   1.656 |     1.0 |  default |   all |      -1 |     -1
+#fire_0079.fits |        standard |  113.168902 | -77.0671078 |                        HD62139 | Longslit | default |     1,1 | 2461192.4723495375 |   1.703 |     1.0 |  default |     0 |       1 |      2
+#fire_0080.fits |        standard | 113.1569688 | -77.0681076 |                        HD62139 | Longslit | default |     1,1 |  2461192.473344908 |   1.707 |     1.0 |  default |     1 |       2 |      1
+#fire_0081.fits |        standard | 113.1572225 | -77.0680527 |                        HD62139 | Longslit | default |     1,1 | 2461192.4744675932 |    1.71 |     1.0 |  default |     2 |       3 |      4
+#fire_0082.fits |        standard | 113.1688654 | -77.0669966 |                        HD62139 | Longslit | default |     1,1 |  2461192.476331019 |   1.715 |     1.0 |  default |     3 |       4 |      3
+#fire_0083.fits |        standard | 113.1688654 | -77.0669966 |                        HD62139 | Longslit | default |     1,1 |  2461192.477083334 |   1.715 |     1.0 |  default |     4 |       5 |      6
+#fire_0084.fits |        standard | 113.1570983 | -77.0680246 |                        HD62139 | Longslit | default |     1,1 |   2461192.47832176 |   1.721 |     1.0 |  default |     5 |       6 |      5
+#fire_0085.fits |        standard | 113.1570983 | -77.0680246 |                        HD62139 | Longslit | default |     1,1 | 2461192.4790740744 |   1.721 |     1.0 |  default |     6 |       7 |      8
+#fire_0086.fits |        standard | 113.1686562 | -77.0669961 |                        HD62139 | Longslit | default |     1,1 | 2461192.4803125006 |   1.728 |     1.0 |  default |     7 |       8 |      7
+#fire_0087.fits |        arc,tilt | 113.1686535 | -77.0670517 |                         NeArNe | Longslit | default |     1,1 |  2461192.481805556 |   1.732 |     1.0 |  default |   all |      -1 |     -1
+data end
+
+
+
+
+
