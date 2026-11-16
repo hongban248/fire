@@ -1,0 +1,6 @@
+[sensfunc]
+  algorithm = IR
+  star_mag = 10.03
+  star_type = A0
+#  [[IR]]
+#      telgridfile = 'TellPCA_3000_26000_R10000.fits'

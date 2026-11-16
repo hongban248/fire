@@ -1,0 +1,17 @@
+# Auto-generated Coadd1D input file using PypeIt version: 2.0.1
+# UTC 2026-11-16T00:39:10.413+00:00
+
+# User-defined execution parameters
+[coadd1d]
+  coaddfile = YOUR_OUTPUT_FILE_NAME  # Please set your output file name
+  wave_method = linear  # creates a uniformly space grid in lambda
+# This file includes all extracted objects. You need to figure out which object you want to 
+# coadd before running pypeit_coadd_1dspec!!!
+
+# Data block 
+coadd1d read
+ path .
+                                                  filename |                  obj_id
+spec1d_fire_0077-COCONUTS-2A_FIRE_85970523T111056.000.fits | SPAT0164-SLIT0176-DET01
+coadd1d end
+
