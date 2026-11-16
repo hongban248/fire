@@ -1,3 +1,0 @@
-| order |          name | obj_id | spat_pixpos | spat_fracpos | box_width | opt_fwhm |    s2n | wv_rms |
-|    16 | OBJ0292-DET01 |    292 |      1447.1 |        0.292 |      3.00 |    0.846 | 208.69 |  0.000 |
-|    11 | OBJ0292-DET01 |    292 |      1903.5 |        0.292 |      3.00 |    0.412 |  47.94 |  0.014 |

@@ -1,3 +1,0 @@
-| order |          name | obj_id | spat_pixpos | spat_fracpos | box_width | opt_fwhm |    s2n | wv_rms |
-|    16 | OBJ0655-DET01 |    655 |      1466.5 |        0.655 |      3.00 |    0.758 | 202.42 |  0.000 |
-|    11 | OBJ0655-DET01 |    655 |      1921.1 |        0.655 |      3.00 |    0.118 |  56.61 |  0.014 |

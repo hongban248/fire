@@ -1,2 +1,0 @@
-| slit |                    name | obj_id | spat_pixpos | spat_fracpos | box_width | opt_fwhm |    s2n | wv_rms |
-|  176 | SPAT0163-SLIT0176-DET01 |    163 |       163.4 |        0.446 |      3.00 |    1.490 | 308.19 |  2.965 |
