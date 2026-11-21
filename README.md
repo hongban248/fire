@@ -340,6 +340,19 @@ $F_j=\frac{\sum{F_{ij}{IVAR}{ij}}}{\sum{{IVAR}{ij}}}$和 $\delta=\frac{1}{\sqrt{
 
 下次开会：下周四10.22晚上九点半
 
+### tell 部分
+
+```bash
+cd magellan_fire_long_A/74
+echo "[telluric]
+  objmodel = star
+  star_type = A0
+  star_mag = 10.03" > magellan_fire_long.tell
+
+pypeit_tellfit spec1d_fire_0074-COCONUTS-2A_FIRE_85970523T110233.000.fits -t magellan_fire_long.tell
+
+```
+
 
 
 

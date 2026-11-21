@@ -1,0 +1,25 @@
+    INFO | 2026-11-21 09:05:00 | inputfiles.py:from_file:136 | Loading the reduction file
+    INFO | 2026-11-21 09:05:00 | inputfiles.py:from_file:214 | Telluric input file loaded successfully.
+    INFO | 2026-11-21 09:05:00 | pypeitdata.py:get_file_path:300 | TellPCA_3000_26000_R10000.fits does not exist in the expected package directory (/home/yin/myenv/myenv/lib/python3.12/site-packages/pypeit/data/telluric/atm_grids).  Checking cache or downloading the file now.
+ WARNING | 2026-11-21 09:05:00 | cache.py:fetch_remote_file:242 | Note: If this file takes a while to download, you may wish to used one of the install scripts (e.g., pypeit_install_telluric) to install the file independent of this processing script.
+    INFO | 2026-11-21 09:05:00 | tellfit.py:main:128 | Writing the telluric fitting parameters to telluric.par
+    INFO | 2026-11-21 09:05:00 | tellfit.py:main:134 | Telluric-corrected spectrum will be saved to: spec1d_fire_0074-COCONUTS-2A_FIRE_85970523T110233.000_tellcorr.fits.
+    INFO | 2026-11-21 09:05:00 | tellfit.py:main:135 | Best-fit telluric model will be saved to: spec1d_fire_0074-COCONUTS-2A_FIRE_85970523T110233.000_tellmodel.fits.
+    INFO | 2026-11-21 09:05:00 | pypeitdata.py:get_file_path:300 | vega_tspectool_vacuum.dat does not exist in the expected package directory (/home/yin/myenv/myenv/lib/python3.12/site-packages/pypeit/data/standards).  Checking cache or downloading the file now.
+    INFO | 2026-11-21 09:05:00 | flux_calib.py:get_mask:495 |  Masking bad pixels
+    INFO | 2026-11-21 09:05:00 | flux_calib.py:get_mask:500 |  Masking edges
+    INFO | 2026-11-21 09:05:00 | flux_calib.py:get_mask:503 |  Masking Below the atmospheric cutoff
+    INFO | 2026-11-21 09:05:00 | flux_calib.py:mask_stellar_hydrogen:585 | Masking hydrogen recombination lines
+    INFO | 2026-11-21 09:05:00 | flux_calib.py:mask_stellar_hydrogen:588 |  Masking Balmer
+    INFO | 2026-11-21 09:05:00 | flux_calib.py:mask_stellar_hydrogen:599 |  Masking Paschen
+    INFO | 2026-11-21 09:05:00 | flux_calib.py:mask_stellar_hydrogen:610 |  Masking Brackett
+    INFO | 2026-11-21 09:05:00 | flux_calib.py:mask_stellar_hydrogen:619 |  Masking Pfund
+    INFO | 2026-11-21 09:05:00 | telluric.py:__init__:2453 | Reading in the pca-based telluric model: TellPCA_3000_26000_R10000.fits
+    INFO | 2026-11-21 09:05:00 | pypeitdata.py:get_file_path:300 | TellPCA_3000_26000_R10000.fits does not exist in the expected package directory (/home/yin/myenv/myenv/lib/python3.12/site-packages/pypeit/data/telluric/atm_grids).  Checking cache or downloading the file now.
+ WARNING | 2026-11-21 09:05:00 | cache.py:fetch_remote_file:242 | Note: If this file takes a while to download, you may wish to used one of the install scripts (e.g., pypeit_install_telluric) to install the file independent of this processing script.
+    INFO | 2026-11-21 09:05:00 | telluric.py:__init__:2510 | Initializing object model for order: 0, 1/1 with user supplied function: init_star_model
+ WARNING | 2026-11-21 09:05:01 | fitting.py:robust_optimize:626 | Maximum number of iterations maxiter=3 reached in robust_optimize
+    INFO | 2026-11-21 09:05:01 | telluric.py:run:2593 | Fitting object + telluric model for order: 0, 1/1 with user supplied function: init_star_model
+ WARNING | 2026-11-21 09:06:43 | fitting.py:robust_optimize:626 | Maximum number of iterations maxiter=2 reached in robust_optimize
+    INFO | 2026-11-21 09:06:58 | io.py:write_to_fits:672 | File written to: spec1d_fire_0074-COCONUTS-2A_FIRE_85970523T110233.000_tellmodel.fits
+    INFO | 2026-11-21 09:06:58 | io.py:write_to_fits:672 | File written to: spec1d_fire_0074-COCONUTS-2A_FIRE_85970523T110233.000_tellcorr.fits
